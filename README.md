@@ -26,17 +26,17 @@ Do follow following links for dataset, model, and trained weight file.
 
 ## Training
 
-Follow training steps as one by one from [Training_YOLOv3.ipynb](https://github.com/AnjaanKhadka/Face-mask-Detection-using-YOLOv3/blob/master/Training_YOLOv3.ipynb) file. ( Use of [Google colab](https://colab.research.google.com/) suggested )
+Follow training steps as one by one from [Training_YOLOv3.ipynb](https://github.com/JNPN7/face-mask-detection-YOLOv3/blob/master/Training_YOLOv3.ipynb) file. ( Use of [Google colab](https://colab.research.google.com/) suggested )
 
 ## Inference
 
 First you should download [Weight](https://drive.google.com/file/d/1-H_DIlCpxvlFSbZKabNWZlG1ebniHzFH/view?usp=sharing) file and keep it in the same folder.
 
-- To test on image execute [test_on_photo.py](https://github.com/AnjaanKhadka/Face-mask-Detection-using-YOLOv3/blob/master/test_on_photo.py) file.
+- To test on image execute [test_on_photo.py](https://github.com/JNPN7/face-mask-detection-YOLOv3/blob/master/test_on_photo.py) file.
 
         python test_on_photo.py
 
-- To test on image execute [test_on_video.py](https://github.com/AnjaanKhadka/Face-mask-Detection-using-YOLOv3/blob/master/test_on_video.py) file.
+- To test on image execute [test_on_video.py](https://github.com/JNPN7/face-mask-detection-YOLOv3/blob/master/test_on_video.py) file.
 
         python test_on_video.py
 
@@ -44,7 +44,7 @@ First you should download [Weight](https://drive.google.com/file/d/1-H_DIlCpxvlF
 
 Currently I have trained upto 2400 iterations and got descent result. this model can be trained even more. Try training upto 6000 iterations or even more.
 
-![Training Curve](https://github.com/JNPN7/Face-mask-Detection-using-YOLOv3/blob/master/images/chart_yolov3.png)
+![Training Curve](https://github.com/JNPN7/face-mask-detection-YOLOv3/blob/master/images/chart_yolov3.png)
 
 ### Output parameters  
 
